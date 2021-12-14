@@ -645,7 +645,7 @@ namespace qotdbot
                 string fullLinesStringneg = cleaner(fullFileArrayneg);
                 File.WriteAllText("questionList.txt", fullLinesStringneg);
                 //tell the user we ran out of questions
-                await message.Channel.SendMessageAsync("there are no more questions left to ask");
+                return("there are no more questions left to ask");
             }
             else
             {
