@@ -613,7 +613,7 @@ namespace qotdbot
         public async Task timerSender()
         {
             //assign the channel id
-            ulong id = 302131706142654466;
+            ulong id = 619194193306320926;
             //set to go repeatedly
             while (true)
             {
